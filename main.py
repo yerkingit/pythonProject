@@ -18,7 +18,6 @@ from kivy.graphics import Color, Rectangle
 from random import random as r
 from functools import partial
 
-
 class StressCanvasApp(App):
 
     def add_rects(self, label, wid, count, *largs):
